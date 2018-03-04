@@ -1,5 +1,5 @@
-.PHONY: test
-test: 
+.PHONY: build
+build: 
 	docker build . -t test-php-image
 
 .PHONY: run
